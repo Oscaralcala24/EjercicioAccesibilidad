@@ -32,6 +32,9 @@ li a img{
 header h2{
   color: #000000 !important;
 }
+.breadcrumb-text{
+  font-size: 90%;
+}
 
 
 

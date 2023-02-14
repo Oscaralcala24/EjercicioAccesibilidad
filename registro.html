@@ -73,12 +73,12 @@
         </div>
       </nav>
     </div>
-    <div class="row container mx-auto">
+    <div class="row container ms-auto me-5">
       <div class="col-12">
         <nav aria-label="breadcrumb" class="div-eventos-light">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item m-1 ms-3 text-light"><a href="#" aria-current="page"><strong>Home</strong></a></li>
-            <li class="breadcrumb-item active m-1 ms-3 text-light" aria-current="page" tabindex="0">Registro</li>
+          <ol class="breadcrumb justify-content-end bg-light">
+            <li class="breadcrumb-item m-1 ms-3 text-light breadcrumb-text"><a href="#" aria-current="page"><strong>Home</strong></a></li>
+            <li class="breadcrumb-item active m-1 ms-3 text-light breadcrumb-text" aria-current="page" tabindex="0">Entradas</li>
           </ol>
         </nav>
       </div>
@@ -92,63 +92,63 @@
         <form class="text-md-center row g-3">
           <div class="col-10 mx-auto col-md-4">
             <label class="mt-4 mb-2 form-label" for="nombre">Nombre:*</label>
-            <input class="form-control" type="text" name="nombre" id="nombre" aria-label="nombre" aria-required="true" tabindex="2">
+            <input class="form-control" type="text" name="nombre" id="nombre" aria-label="nombre" aria-required="true" tabindex="0">
           </div>
           <div class="col-10 mx-auto col-md-4">
             <label class="mt-4 mb-2 form-label" for="apellidos">Apellidos:*</label>
-            <input class=" form-control" type="text" name="apellidos" id="apellidos" aria-label="apellidos" aria-required="true" tabindex="2">
+            <input class=" form-control" type="text" name="apellidos" id="apellidos" aria-label="apellidos" aria-required="true" tabindex="0">
           </div>
           <div class="col-10 mx-auto col-md-4">
             <label for="usernameInsta" class="mt-4 mb-2 form-label">Instagram</label>
             <div class="input-group">
               <span class="input-group-text" id="instagram">@</span>
-              <input type="text" class="form-control" id="usernameInsta" aria-label="Cuenta de Instagram"  tabindex="2">
+              <input type="text" class="form-control" id="usernameInsta" aria-label="Cuenta de Instagram"  tabindex="0">
             </div>
           </div>
           <div class="col-10 mx-auto col-md-4">
             <label class="mt-4 mb-2 form-label" for="email">Email:*</label>
             <div class="input-group">
               <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
-              <input type="email" class="form-control" id="email"  aria-label="Cuenta de email" aria-required="true" tabindex="2">
+              <input type="email" class="form-control" id="email"  aria-label="Cuenta de email" aria-required="true" tabindex="0">
             </div>
           </div>
           <div class="col-10 mx-auto col-md-8">
             <label class="mt-4 mb-2 form-label" for="direccion">Direccion:</label>
             <div class="input-group">
               <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
-              <input type="text" class="form-control" id="direccion"  aria-label="direccion" tabindex="2">
+              <input type="text" class="form-control" id="direccion"  aria-label="direccion" tabindex="0">
             </div>
           </div>
           <div class="col-10 mx-auto col-md-3">
             <label class="mt-4 mb-2 form-label" for="CCAA">C.Autónoma:</label>
-            <select class="form-select" name="CCAA" id="CCAA" tabindex="2">
+            <select class="form-select" name="CCAA" id="CCAA" tabindex="0">
               
             </select>
           </div>
           <div class="col-10 mx-auto col-md-3">
             <label class="mt-4 mb-2 form-label" for="provincias">Provincias:</label>
-            <select class="form-select" name="provincias" id="provincias" tabindex="2">
+            <select class="form-select" name="provincias" id="provincias" tabindex="0">
               
             </select>
           </div>
           <div class="col-10 mx-auto col-md-3">
             <label class="mt-4 mb-2 form-label" for="ciudad">Ciudad:</label>
-            <input class="form-control" type="text" id="ciudad" aria-label="ciudad" tabindex="2">
+            <input class="form-control" type="text" id="ciudad" aria-label="ciudad" tabindex="0">
           </div>
           <div class="col-10 mx-auto col-md-3">
             <label class="mt-4 mb-2 form-label" for="CP">Código Postal:</label><br>
             <input class="form-control" type="text" id="CP" data-toggle="tooltip" data-placement="top"
-              title="Debe ser un numero de 5 cifras" aria-label="Codigo Postal" tabindex="2">
+              title="Debe ser un numero de 5 cifras" aria-label="Codigo Postal" tabindex="0">
           </div>
           <div class="col-10 mx-auto col-md-6">
             <label for="descripcion" class="form-label">Sobre mi:</label>
             <textarea class="form-control" id="descripcion" placeholder="Introduce una breve descripción sobre ti"
-              rows="8" aria-label="Descripcion sobre mi" tabindex="2"></textarea>
+              rows="8" aria-label="Descripcion sobre mi" tabindex="0"></textarea>
           </div>
           <div class="col-12 row mx-auto">
             <div class=" col-10 col-sm-8  col-lg-6 my-4 text-center mx-auto">
-              <button type="reset" class="btn btn-secondary boton-registro" tabindex="2">Resetear</button>
-              <button type="submit" class="btn btn-primary boton-registro" tabindex="2">Registrarse</button>
+              <button type="reset" class="btn btn-secondary boton-registro" tabindex="0">Resetear</button>
+              <button type="submit" class="btn btn-primary boton-registro" tabindex="0">Registrarse</button>
             </div>
           </div>
         </form>
